@@ -2,8 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import Link from 'next/link';
-import {  FaCoins, FaMedal, FaGem, FaCrown } from 'react-icons/fa';
+import { FaCoins, FaMedal, FaGem, FaCrown } from 'react-icons/fa';
 
 const LeaderboardPage = () => {
   return (

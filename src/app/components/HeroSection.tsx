@@ -19,8 +19,7 @@ const HeroSection = () => {
 	return (
 		<section className="bg-background text-white py-8 px-6">
 			<div
-				className="relative rounded-lg overflow-hidden bg-gray-900 shadow-lg mx-auto"
-				style={{ maxWidth: "1280px", height: isMobile ? "400px" : "360px" }}
+				className={`relative rounded-lg overflow-hidden bg-gray-900 shadow-lg mx-auto ${isMobile ? "mobile-hero" : "desktop-hero"}`}
 			>
 				{/* Background Image */}
 				<div className="absolute inset-0">
@@ -92,7 +91,7 @@ const HeroSection = () => {
 					{/* Action Buttons */}
 					<div className="flex items-center space-x-4">
 						{/* Notification Button */}
-						<button className="bg-black bg-opacity-60 p-3 rounded-md flex items-center justify-center hover:bg-opacity-80 transition">
+						<button className="bg-black bg-opacity-60 p-3 rounded-md flex items-center justify-center hover:bg-opacity-80 transition" title="Notifications">
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
 								className="h-5 w-5 text-white"

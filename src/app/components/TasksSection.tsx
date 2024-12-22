@@ -11,28 +11,28 @@ const TasksSection = () => {
 				<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
 					{[
 						{
-							image: "/images/task1.png", // Replace with actual image paths
+							image: "/images/history_hunt1.png", // Replace with actual image paths
 							title: "History Hunt: Who Said That?",
 							avgTime: "3m 45s",
 							participants: 243,
 							reward: "0.02 BNB",
 						},
 						{
-							image: "/images/task2.png",
+							image: "/images/history_hunt2.png",
 							title: "History Hunt: Who Said That?",
 							avgTime: "3m 45s",
 							participants: 243,
 							reward: "0.02 BNB",
 						},
 						{
-							image: "/images/task3.png",
+							image: "/images/history_hunt3.png",
 							title: "History Hunt: Who Said That?",
 							avgTime: "3m 45s",
 							participants: 243,
 							reward: "0.02 BNB",
 						},
 						{
-							image: "/images/task4.png",
+							image: "/images/history_hunt4.png",
 							title: "History Hunt: Who Said That?",
 							avgTime: "3m 45s",
 							participants: 243,

@@ -33,7 +33,7 @@ const LeaderboardPage = () => {
                   </td>
                   <td className="py-2 flex items-center space-x-2">
                     <Image
-                      src="/profile-picture.jpg"
+                      src="/images/profileavatar.png"
                       alt="Profile"
                       width={32}
                       height={32}

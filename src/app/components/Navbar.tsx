@@ -29,7 +29,7 @@ const Navbar: React.FC<NavbarProps> = ({ user, walletBalance }) => {
 	};
 
 	return (
-		<nav className="bg-background text-primary py-4 px-6 flex items-center justify-between relative">
+		<nav className="bg-background text-primary py-4 px-6 flex items-center justify-between relative ">
 			{/* Logo Section */}
 			<div className="flex items-center">
 				<span className="text-secondary font-bold text-2xl">Quest</span>

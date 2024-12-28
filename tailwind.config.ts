@@ -9,7 +9,7 @@ const config = {
 		extend: {
 			colors: {
 				primary: "#979CA8", // Primary color for the project
-				secondary: "#E9213D", // Secondary color for text
+				secondary: "#00AEED", // Secondary color for text
 				background: "#0E1015", // Background color
 			},
 			fontFamily: {

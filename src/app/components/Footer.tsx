@@ -8,8 +8,9 @@ const Footer = () => {
 		<footer className="bg-background text-white py-12 px-6">
 			<div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
 				{/* Logo Section */}
-				<div>
-					<h2 className="text-2xl font-bold text-secondary">Questbot</h2>
+				<div className="flex items-center">
+					<span className="text-secondary font-bold text-2xl">Quest</span>
+					<span className="text-white font-bold text-2xl">bot</span>
 				</div>
 
 				{/* Company Links */}
